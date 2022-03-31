@@ -1,0 +1,58 @@
+= Version 1.0.9 (06-24-2008) =
+* Fixed: Conflict with 'Advanced Excerpt' plugin
+* Fixed: Conflict with few plugins like 'NextGEN Gallery', 'Clean Archives', 'You Tube' etc.
+
+= Version 1.1 (06-27-2008) =
+* Fixed: Visual Editor not being shown in write post section in internet explorer
+* Added: Open banner link in new window
+* Added: Zone/Banner ID besides zone/banner name
+* Added: Template/Post tag
+
+= Version 1.2 (07-01-2008) =
+* Fixed: Banner impression not being recorded
+* Added: Warning message if 'wp-content' directory is not writeable, and if table structure is not good
+* Added: "Banner Style Class" option for controlling the space between the banners and other image properties
+
+= Version 1.2.5 (07-08-2008) =
+* Updated: Impression count algorithm
+* Added: Option for adding text/javascript ads
+
+= Version 1.2.6 (09-04-2008) =
+* Updated: Template tag for zone for displaying text ads
+* Fixed: Powered by Max Banner Ads link being displayed with post excerpt
+* Fixed: Alignment of "Powered by Max Banner Ads" with "Banner Image"
+
+= Version 1.2.7 (09-10-2008) =
+* Fixed: Impressions Not being counted but visits being counted for admin and logged in users. Now both won't be counted.
+
+= Version 1.3 (09-29-2008) =
+* Added: Version notification and automatic upgrade
+* Added: Option to display banners in home page, sigle page/post, archive page, category page, etc.
+* Added: Option to make banner ad link follow/nofollow
+* Added: Option to add title/tag to images/banners
+* Updated: Template Tag can now use zone/banner name as a parameter to display the banners
+
+= Version 1.3.1 (10-13-2008) =
+* Fixed: Zone not being added
+
+= Version 1.3.2 (11-07-2008) =
+* Fixed: Impressions not being registered for sidebar zone
+
+= Version 1.3.3 (11-16-2008) =
+* Fixed: Auto update problem in WP 2.6 and higher
+
+= Version 1.3.4 (12-17-2008) =
+* Fixed: Layout for WP 2.7
+
+= Version 1.3.5 (12-26-2008) =
+* Fixed: Layout for WP 2.7
+
+= Version 1.3.6 (02-10-2009) =
+* Updated: <br> replaced with <br />
+
+= Version 1.3.7 (04-09-2009) =
+* Fixed: Banner Style Class settings not working for text ads
+* Fixed: Tiny square box appearing in the blog
+
+= Version 1.4 (07-06-2009) =
+* Fixed: Widgets in WordPress 2.8

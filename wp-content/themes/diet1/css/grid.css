@@ -1,0 +1,30 @@
+
+ /* Main container */
+.container {
+  width: 1000px;
+  margin: 10px auto;
+  border:0px solid #eee;
+  display:table; /* must put this in for FireFox. */
+ 
+
+}
+
+.column {
+  float: left;
+}
+
+/* header and footer*/
+.header  { width: 1000px;}
+.footer { width: 1000px;}
+
+/* middle content box with left and right column*/
+.mid  { width: 975px;}
+
+/* Content Column*/
+.content_column  { width: 525px;}
+
+/* left and right Columns*/
+
+.sidebar_left  { width: 225px; }
+
+.sidebar_right { width: 225px; }

@@ -1,0 +1,504 @@
+/*  
+Theme Name: Mobile Flow
+Theme URI: http://test.qualitywordpress.com/?preview_theme=mobileflow
+Description: Mobile flow is a nice fusion of rainbow flowy graphics and a sleek mobile phone graphic.
+Version: 1.0
+Author: qualitywordpress
+Author URI: http://qualitywordpress.com
+*/
+
+
+
+/* General */
+
+body {
+	margin: 0;
+	background: #000000;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	width: 907px;
+}
+
+
+/* Header */
+
+#header {
+	width: 907px;
+	height: 400px;
+	background: url("images/header.jpg") no-repeat;
+	position: relative;
+}
+
+	/* Header - Info */
+	
+	#header #header-info {
+		position: absolute;
+		top: 130px;
+		left: 530px;
+	}
+	
+	#header #header-info h1 {
+		color: #FFFFFF;
+		font: bold 33px Verdana;
+		padding-bottom: 5px;
+	}
+	
+	#header #header-info h1 a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	#header #header-info .description {
+		color: #FFFFFF;
+		font: bold 15px Verdana;
+	}
+	
+	/* Header - Menu */
+	
+	#header #header-menu {
+		position: absolute;
+		top: 240px;
+		left: 168px;
+		height: 34px;
+	}
+	
+	#header #header-menu ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		height: 34px;
+	}
+	
+	#header #header-menu ul li {
+		float: left;
+		height: 32px;
+		margin-right: 11px;
+		font: bold 12px/32px Verdana;
+		color: #ffffff;
+		background: url("images/header_menu.gif") repeat-x;
+		border: 0px solid #FFFFFF;
+		padding: 0 30px;
+	}
+	
+	#header #header-menu ul li a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	#header #header-menu ul li a:hover {
+		text-decoration: underline;
+	}
+	
+	#header #header-menu ul li ul {
+		display: none;
+	}
+
+
+/* Main */
+
+#main {
+	width: 907px;
+	background: #262626 url("images/main.gif") repeat-y;
+}
+
+#main-top {
+	width: 907px;
+	background: url("images/main_top.gif") no-repeat;
+}
+
+#main-bottom {
+	width: 907px;
+	min-height: 50px;
+	background: url("images/main_bottom.gif") no-repeat left bottom;
+}
+
+	/* Main - Content */
+	
+	#content {
+		float: left;
+		width: 495px;
+		padding: 12px 16px 0 16px;
+	}
+	
+	/* Main - Content - Post */
+	
+	#content .post {
+		float: left;
+		margin-bottom: 25px;
+		width: 495px;
+	}
+	
+		/* Post - Date */
+		
+		#content .post .post-date {
+			background: url("images/post_date.gif") no-repeat;
+			width: 169px;
+			height: 44px;
+			color: #000000;
+			text-align: center;
+			font: bold 10px/65px Verdana;
+		}
+		
+		/* Post - Title */
+		
+		#content .post .post-title {
+			width: 495px;
+			height: 65px;
+			border: 0px solid #FFFFFF;
+			background: url("images/post_title.gif") repeat-x;
+			color: #000000;
+			font: bold 10px Verdana;
+			padding: 0 15px;
+		}
+		
+		#content .post .post-title a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title h2 {
+			color: #ffffff;
+			font: bold 15px/45px Verdana;
+			float: left;
+		}
+		
+		#content .post .post-title h2 a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title h2 a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title .post-title-info {
+			float: left;
+			line-height: 45px;
+		}
+		
+		/* Post - Entry */
+		
+		#content .post .post-entry {
+			font: normal 11px/18px Verdana;
+			color: #000000;
+			padding: 0 15px;
+			width: 475px;
+			background: #FFFFFF;
+			float: left;
+		}
+		
+		#content .post .post-entry a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry .more-link {
+			font: bold 11px/20px Verdana;
+			color: #000000;
+			float: right;
+			padding-bottom: 5px;
+		}
+		
+		#content .post .post-entry .more-link a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry .more-link a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Info */
+		
+		#content .post .post-info {
+			padding: 0 10px 0 0;
+			width: 485px;
+			clear: both;
+			font: bold 10px/19px Verdana;
+			color: #000000;
+			background: url("images/post_info.gif") no-repeat;
+			text-align: right;
+		}
+		
+		#content .post .post-info a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-info a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Comments */
+		
+		#content .post .post-entry h3 {
+			color: #000000;
+			font: bold 14px Verdana;
+			margin: 25px 0 5px 0;
+		}
+		
+		#content .post .post-entry .comments {
+			font: normal 11px/18px Verdana;
+			color: #000000;
+			width: 465px;
+		}
+		
+		#content .post .post-entry .comments a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry .comments a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry .comments ol {
+			margin: 10px 0 10px 0;
+			padding-left: 25px;
+		}
+		
+		#content .post .comments ol li {
+			padding: 5px;
+		}
+		
+		#content .post .post-entry .comments ol li.alt {
+			background: #cccccc;
+		}
+		
+		#content .post .post-entry .comments ol li cite {
+			color: #000000;
+			font-style: normal;
+			font-weight: bold;
+		}
+		
+		#content .post .post-entry .comments ol li cite a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry .comments ol li cite a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry .comments ol li .commentmetadata a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry .comments ol li .commentmetadata a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry #commentform {
+			font: normal 11px/18px Verdana;
+			color: #FFFFFF;
+			width: 450px;
+			padding-left: 15px;
+			margin: 0;
+		}
+		
+		#content .post .post-entry #commentform a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry #commentform a:hover {
+			text-decoration: underline;
+		}
+	
+	/* Main - Content - Navigation */
+	
+	#content .navigation {
+		font: bold 11px/25px Verdana;
+		color: #000000;
+		width: 495px;
+		height: 25px;
+		float: left;
+		margin-bottom: 25px;
+	}
+	
+	#content .navigation a {
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	#content .navigation a:hover {
+		text-decoration: underline;
+	}
+	
+		#content .navigation .navigation-previous {
+			float: left;
+		}
+		
+		#content .navigation .navigation-next {
+			float: right;
+		}
+	
+	/* Main - Sidebar */
+	
+	.sidebar {
+		float: left;
+		width: 170px;
+		font: normal 11px/18px Verdana;
+		color: #DBDBDB;
+	}
+	
+	.sidebar a {
+		color: #DBDBDB;
+		text-decoration: none;
+	}
+	
+	.sidebar a:hover {
+		text-decoration: underline;
+	}
+	
+		/* Sidebar - Sides */
+		
+		.sidebar-left {
+			padding: 12px 3px 15px 16px;
+		}
+		
+		.sidebar-right {
+			padding: 12px 0 15px 3px;
+		}
+		
+		/* Sidebar - Titles */
+		
+		.sidebar h3 {
+			padding-left: 10px;
+			font: bold 14px/26px Verdana;
+			color: #B8DA78;
+			width: 159px;
+			height: 26px;
+			background: url("images/sidebar_title.gif") repeat-x;
+		}
+		
+		/* Sidebar - Menus */
+		
+		.sidebar ul {
+			margin: 5px 0 8px 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		
+		.sidebar ul li {
+			padding-left: 11px;
+			color: #DBDBDB;
+			font: 10px/25px Verdana;
+			background: url("images/sidebar_menu.gif") repeat-x;
+		}
+		
+		.sidebar ul li a {
+			color: #DBDBDB;
+			text-decoration: none;
+		}
+		
+		.sidebar ul li a:hover {
+			text-decoration: underline;
+		}
+		
+			/* Sidebar - Submenus */
+			
+			.sidebar ul li ul {
+				margin: 0;
+				padding: 0;
+			}
+		
+		/* Sidebar - Forms */
+		
+		.sidebar #searchform {
+			margin: 0;
+			padding: 5px 0 8px 0;
+			width: 170px;
+			text-align: center;
+		}
+		
+		.sidebar #searchform #s {
+			width: 140px;
+		}
+		
+		/* Sidebar - Tables */
+		
+		.sidebar #calendar_wrap {
+			margin: 0 auto;
+			padding: 5px 0 8px 0;
+			width: 130px;
+		}
+		
+		.sidebar #calendar_wrap caption {
+			font-weight: bold;
+		}
+		
+		.sidebar #calendar_wrap tbody {
+			text-align: right;
+		}
+		
+		.sidebar #calendar_wrap tfoot #next {
+			text-align: right;
+		}
+		
+		.sidebar #calendar_wrap #today {
+			font-weight: bold;
+		}
+		
+		/* Sidebar - Texts */
+		
+		.sidebar .textwidget {
+			padding: 5px 4px 8px 4px;
+		}
+		
+		/* Sidebar - Feed */
+		
+		.sidebar #sidebar-feed {
+			margin: 5px auto 8px auto; 
+			width: 160px;
+			height: 60px;
+		}
+
+
+/* Footer */
+
+#footer {
+	width: 907px;
+	height: 83px;
+	background: #000000;
+	color: #ffffff;
+	font: 10px/20px Verdana;
+	text-align: center;
+}
+
+#footer a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+Version 1.0
+
+i)   Theme Submitted for approval
+
+Version 1.1 (12-11-2014)
+
+i) Enqueue Scripts and Styles properly.
+ii) set esc_url sanitization in all files.
+iii) wp_link_pages set in full width template, left sidebar template and in page.php
+iv) Require files set properly
+v) Remove Theme Text Translation and remove translation-ready tag in style.css and readme.txt
+vi) Remove newsletter code from theme options and remove newsletter script and css from js and css files.
+
+Version 1.1.0 (24-11-2014)
+
+i) set sanitization.
+ii) fix javascript error.
+
+Version 1.1.1 (26-11-2014)
+
+i)  Changes made to the theme to make it "Translation Ready".
+ii) Remove Oswald fonts.
+
+Version 1.1.2 (26-11-2014)
+i) Text domain spelling fixed.
+
+Version 1.1.3 (27-11-2014)
+i). fix Translation Ready.
+
+Version 1.1.4 (4-12-2014)
+i). Added bootstrap.js , html5.min.js , owl.carousel.js , owl.carousel.css , bootstrap.css
+
+Version 1.1.5 (5-12-2014)
+i). Added html5shiv.js , html5shiv.min.js , owl.carousel.min.js
+
+Version 1.1.6 (9-12-2014)
+i) Remove subcriber code in fasterthemes.php.
+ii) Declare copyright and license information.
+
+
+Version 1.1.7 (18-12-2014)
+i) Fix css issue
+ii) Provide the folder in load_theme_textdomain.
+
+Version 1.1.8 (21-12-2014)
+i) Fixed Text Domain
+
+Version 1.1.9 (20-08-2015)
+i) Fixed constructor issue.
+
+Version 1.1.10 (03-01-2017)
+i) Minor fixes.
+
+Version 1.1.11 (21-12-2018)
+i) Minor fixes.

@@ -1,0 +1,1 @@
+I am a WordPress designer and developer. I like to create themes for the world! This space can be used as introduction text to yourself. You can also disable it from Theme cotnrol panel.

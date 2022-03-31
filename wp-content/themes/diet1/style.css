@@ -1,0 +1,750 @@
+/*
+Theme Name: Diet 1
+Theme URI: http://www.new-era-web-solutions.com
+Description: <p>2 Column beautiful Diet Theme. Suitable for any blog.</p>
+Version: 1.0
+Author: New Era Web Solutions
+Author URI: http://www.new-era-web-solutions.com/
+
+*/
+
+/* Begin Typography & Colors */
+body, html{
+	font-size: .95em; /* Resets 1em to 10px */
+	font-family: "trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #222;
+	background-color:#f8f8b2;
+	margin:0px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+	}
+
+
+
+a, h2 a:hover, h3 a:hover {
+
+	text-decoration: none;
+	color:#0036cf;
+	}
+
+a:hover {
+	color:#0036cf;
+
+	}
+
+a:link, a:visited {
+	text-decoration:none;
+		color:#0036cf;
+
+}
+
+a:hover, a:active {
+
+	text-decoration: underline;
+}
+
+.header{
+	position:relative;
+
+}
+#header{
+	height:436px;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+}
+
+#title_desc{
+	position:absolute;
+	top:45px;
+	left:50px;
+
+}
+#header h1{
+
+	margin:0px;
+	padding:0px;
+	font-size:3em;
+}
+#header h1 a{
+	color: #fff;
+	margin:0px;
+	padding:0px;
+
+}
+
+
+#header h5{
+	margin:0px;
+	padding:0px;
+	font-size:18px;
+	color:#fff;
+
+}
+
+#logo {
+	font-size:1.8em;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top:55px;
+	left:50px;
+
+
+}
+
+/* menu */
+#menu{
+	height:56px;
+	position: absolute;
+	top:436px;
+	left:0px;
+	width:1000px;
+	background-color:#976565;
+	background-image: url(images/menu-bg.jpg);
+	background-repeat: repeat-x;
+	}
+
+#menu ul{
+	list-style: none;
+	list-style-type: none;
+	font-size: 1.1em;
+	margin:0px auto;
+	padding:0px;
+	padding-left:10px;
+
+
+
+}
+
+#menu ul li{
+	float: left;
+	margin: 0 0 0 1px;
+	height:56px;
+
+
+
+
+}
+
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	font-size: .90em; /* Resets 1em to 10px */
+	padding-right: 10px;
+	padding-left:30px;
+	font-weight:bold;
+	line-height:55px;
+	background-image: url(images/divider.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+
+
+
+
+}
+
+#menu ul li a:hover{
+	text-decoration: underline;
+	font-weight:bold;
+
+}
+
+#menu ul li.current_page_item{
+
+
+
+}
+
+#menu ul li.current_page_item a{
+	color:#222;
+	text-decoration:underline;
+	background-color:#eaea78;
+	line-height:45px;
+	margin-top:4px;
+}
+
+.mid{
+	position:relative;
+	top:0px;
+	z-index:1;
+	left:12px;
+	margin-top:56px;
+
+
+
+}
+
+.content_column{
+
+
+
+}
+
+
+
+#content{
+padding:10px 30px;
+
+}
+
+.add{
+text-align:center;
+
+
+}
+.add img{
+margin:0 auto;
+padding:5px;
+
+
+}
+
+.author{
+	background-color:#00007a;
+	padding:10px;
+	margin-bottom:10px;
+	border:5px solid #000000;
+	width:250px;
+	list-style:none;
+	position:absolute;
+	right:30px;
+	top:170px;
+	color:#fff;
+
+}
+.author h3,
+.author ul,
+.author li
+
+{
+padding:0px;
+margin:0px;
+list-style:none;
+
+
+}
+
+
+<!--sidebars, left and right-->
+#sidebars{
+background-color:#000;
+
+}
+
+#sidebars ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	padding:10px;
+
+
+}
+
+
+
+
+
+#sidebars ul li ul{
+	margin:0px;
+	padding:0px;
+	border-bottom:0px solid #ebc0d5;
+
+
+}
+
+#sidebars ul li ul ul{
+border:none;
+
+
+}
+
+#sidebars ul li h2 {
+	color:#fff;
+	padding:0px;
+	margin:0px;
+	padding:5px 10px 0px 22px;
+	font-size:1.4em;
+	background-image: url(images/h2bg.jpg);
+	background-repeat: no-repeat;
+	height:37px;
+
+
+}
+#sidebars ul li ul li{
+
+	border-bottom:0px solid #f5f5f5;
+	padding:5px;
+	color:#000;padding-left:20px;
+
+}
+
+#sidebars ul li ul li li{
+
+	border-bottom:0px solid #f5f5f5;
+	padding:5px;
+
+}
+#sidebars ul li ul li li a{
+color:#222;
+
+
+}
+
+
+#sidebars ul li ul ul{
+	margin:0px;
+	padding:0px;
+	border-top:0px solid #eee;
+}
+
+
+#sidebars ul li ul li a,
+#sidebars ul li ul li a:visited
+{
+	color:#730000;
+	text-align:left;
+	font-size:1.10em;
+
+
+}
+#sidebars ul li ul li a:hover{
+
+
+
+}
+
+#sidebars ul li ul {
+	margin-bottom:10px;
+
+}
+
+
+.footer{
+z-index:5;
+position:relative;
+
+}
+#footer{
+	height: 51px;
+	text-align:center;
+	border-top:
+	1px solid #ba240c;
+	font-size:0.8em;
+
+
+
+}
+
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	color:#ba240c;
+
+	}
+
+#footer p a{
+
+	color:#ba240c;
+	text-decoration: none;
+	}
+
+.sponsor ul {
+margin:0px;
+padding:0px;
+text-align:center;
+
+
+}
+
+
+.sponsor li{
+display:inline;
+padding:3px 10px;
+
+
+}
+
+
+small {
+
+	font-size: 0.9em;
+
+	}
+
+h2.pagetitle {
+	font-size: 1.4em;
+	color:#ba240c;
+	}
+
+
+
+.entry img {
+float:left;
+margin-right:10px;
+
+
+}
+
+
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+.post {
+	margin: 0 0 40px;
+	text-align: justify;
+	}
+
+.post  small{
+	margin:0px;
+	padding:0px;
+
+
+	}
+
+.post  small span{
+	color:#ba240c;
+	font-size:1.0em;
+
+	}
+
+.post h2,
+.post h3
+ {
+
+	margin:0px;
+	padding:0px;
+
+
+}
+.post h2 a,
+.post h3 a
+{
+	color:#ba240c;
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+
+.search{
+
+
+
+
+}
+
+.search ul li{
+background-image:none;
+
+
+
+
+
+}
+.author a,.author a:visited{
+color:#FFCC00;
+
+
+
+}
+
+
+.author p{
+padding:0px;
+
+
+}
+
+.author img{
+padding:3px;
+border:1px solid #eee;
+background-color:#fff;
+margin:5px;
+
+
+}
+
+
+.postmetadata {
+	clear: left;
+}
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+
+h2.pagetitle {
+	margin-top: 10px;
+	text-align: left;
+	padding:0px;
+	margin-bottom:0px;
+}
+
+
+
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+
+	}
+
+#sidebars #searchform #s {
+	width:115px;
+	padding: 2px;
+
+	}
+
+#sidebars #searchsubmit {
+	padding: 1px;
+	}
+
+
+
+
+
+
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+
+/* Comments starts here*/
+
+
+.alt {
+	background-color: #e4e463;
+	border:1px solid #dbdb3e;
+
+	}
+
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	background-color:#f5f5f5;
+	border:1px solid #eee;
+	color:#000;
+	}
+
+#commentform textarea {
+	width: 95%;
+	padding: 2px;
+	background-color:#f5f5f5;
+	border:1px solid #eee;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+
+#sidebar form {
+	margin: 0;
+	}
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 10px;
+	width: 155px;
+	border:1px solid #eee;
+	padding:10px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+/* icons for user, cat and comments */
+
+.post .folder_icon{
+	background-image: url(images/folder.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+.post .folder_icon a{
+	margin-left:15px;
+
+
+}
+
+.post .comments{
+	background-image: url(images/comments.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+.post .comments a{
+	margin-left:15px;
+
+
+}
+
+.post .date{
+	background-image: url(images/date.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color:#333;
+	font-weight:normal;
+
+
+}
+.post .date strong{
+margin-left:15px;
+
+
+
+}

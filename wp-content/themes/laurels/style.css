@@ -1,0 +1,581 @@
+/*
+Theme Name: Laurels
+Theme URI: https://fasterthemes.com/wordpress-themes/Laurels
+Author: FasterThemes
+Author URI: https://fasterthemes.com/
+Description: Laurels is a lightweight, faster, clean, super flexible and bootstrap based responsive theme for business or personal websites. Laurels Theme is built on top of Twitter Bootstrap which means that your site can be displayed on every device (pc, laptop, mobile devices, tablets etc) without horizontal scrolling. It has got custom widgets, theme-options etc in order to get it customized as per your needs.
+Version: 1.1.11
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Laurels Theme, Copyright 2017 fasterthemes.com
+Laurels is distributed under the terms of the GNU GPL
+Tags: left-sidebar, right-sidebar, custom-background, custom-menu, editor-style, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments , translation-ready
+Text Domain: laurels
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.bottom-footer{
+	color:#fff;
+}
+.bottom-footer span {
+    color: #b7b7b7;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.laurels-entry-meta a{
+	color: #535353;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out 0s;
+}
+nav.navigation.pagination h2.screen-reader-text {
+    margin: 0;
+} 
+.pagination {
+    margin: 0;
+} 
+.nav-links span, .nav-links a {
+    padding: 0 5px;
+} 
+.blog-content {
+    margin-top: 10px;
+}  
+.comment-form .comment-form-comment textarea {
+    color: #747474;
+    width: 100%;
+} 
+.page-links {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+} 
+.breadcrumb.blog-breadcumb > a {
+    color: #535353;
+    display: inline-block;
+    margin-right: 5px;
+}
+.breadcrumb.blog-breadcumb > a:hover {
+    color: #12bbd5;
+}
+#sidebar-carousel-1 i.fa.fa-angle-left, #sidebar-carousel-1 i.fa.fa-angle-right {
+    font-size: 28px;
+    width: 46px;
+    height: 53px;
+    background-color: #151518;
+    padding: 10px 0px;
+    border-radius: 4px; 
+    color: #fff;
+}  
+.search-box {
+    float: right;
+}  
+.blog-breadcumb a:after {
+    color: #535353;
+    content: none;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.laurels-entry-meta {
+    float: left;
+    margin-right: 10px;
+}
+.blog-info > h2{
+	 font-size: 24px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out 0s;
+    margin:0px;
+}
+.site-breadcumb  a, 
+.list-breadcumb  a {
+    color: #1e1e1e;
+    text-transform: capitalize;
+}
+.site-breadcumb  a:hover {
+    color: #12bbd5;
+}
+.media-object {
+    height: auto;
+    width: 85px;
+}
+.comment-media .avtar img {
+    margin-right: 10px;
+}
+#commentform label,
+.comment-notes,
+.comment-form-url {
+    display: none;
+}
+#commentform input {
+    margin-bottom: 10px;
+}
+.comment-reply-title {
+    margin-bottom: 15px;
+}
+
+#commentform input[type="submit"] {
+    background-color: #017c9b;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 15px;
+    
+}
+#commentform input[type="submit"]:hover {
+    background-color: #212121;
+    border: 0 none;
+    border-radius: 0;
+    transition: all 0.5s ease-in-out 0s;
+}
+.laurels-entry-meta {
+    display: table;
+    float: none;
+    margin-right: 10px;
+ }
+table{
+	width: 100%;
+}
+.wp-caption {
+	max-width: 100%;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em !important;
+}
+.wp-caption {
+    background: none repeat scroll 0 0 #12bbd5;
+    clear: both;
+    margin-bottom: 14px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.wp-caption-text {
+    color: rgb(255, 255, 255) !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin: 0 auto !important;
+    padding: 8px 0;
+    text-align: center !important;
+}
+.sticky .entry-date {
+	display: none;
+}
+a {
+    color: #12bbd5;
+}
+.blog-content p a:hover {
+    color: #535353;
+}
+.bypostauthor{}
+.carousel-inner .item > img {
+    height: auto !important;
+    width: 100%;
+}
+.item img{
+     width: 100%;
+} 
+.center-block .row_img img{
+    height: 189px;
+    width: 190px;
+}
+.readmore{
+	    display: table;
+}
+.blog-rightsidebar-img {
+    margin-bottom: 10px;
+}
+.blog-content td,
+.blog-content th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+dt,
+dd {
+    padding: 5px 0;
+}
+.laurels-site-name > a {
+    color: #fff;
+}
+/*pagination*/
+.pagination ul li a:hover, a.select, .pagination .active a {
+    border: 1px solid #12bbd5;
+}
+.pagination ul li a{
+	color: #12bbd5;
+}
+
+.laurels-default-pagination {
+    background-color: #f1f1f1;
+    clear: both;
+    display: table;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+}
+.laurels-previous-link {
+    color:  #12bbd5;
+    float: left;
+}
+.laurels-next-link {
+    color:  #12bbd5;
+    float: right;
+}
+.laurels-next-link a,
+.laurels-previous-link a {
+    color: #12bbd5;
+}
+/* End pagination */
+.media_left > .media-body > p > a {
+    text-align: right;
+    width: 100%;
+}
+.media.media_left > a {
+    float: left;
+    margin-right: 15px;
+}
+/* main sidebar */
+.main-sidebar .sidebar-widgets h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-top:0px;
+}
+.main-sidebar aside{
+	margin-bottom:30px;
+}
+
+.main-sidebar ul {
+    list-style: none outside none;
+    padding-left: 0;
+}
+.main-sidebar li {
+    border-bottom: 1px dotted #bbbbbb;
+    padding: 15px 0 7px;
+}
+.main-sidebar li:before {
+    color: #515151;
+    content: ">";
+    padding-right: 5px;
+}
+.main-sidebar li a {
+    color: #515151;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.main-sidebar li a:hover {
+    color: #12bbd5;
+    transition: all 0.5s ease-in-out 0s;
+}
+.main-sidebar .screen-reader-text{
+	display: none;
+}
+.main-sidebar .search-field{
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 0;
+    font-weight: normal;
+    padding: 7px 10px 7px 5px;
+    position: relative;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+}
+.main-sidebar .search-submit {
+    border: 1px solid #c8c8c8;
+    padding: 7px 10px;
+}
+
+
+.main-sidebar .children li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+.main-sidebar table {
+    width: 100%;
+}
+.main-sidebar select {
+    padding: 5px;
+    width: 100%;
+}
+.main-sidebar .wp-caption {
+    background: none repeat scroll 0 0 #12bbd5;
+    clear: both;
+    margin-bottom: 14px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.main-sidebar img {
+    height: auto;
+    max-width: 100%;
+}
+.main-sidebar .sub-menu li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+.main-sidebar .tagcloud a {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 100% !important;
+}
+.tagcloud a {
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    padding: 5px 8px;
+    text-decoration: none;
+    transition: all 0.17s ease-in-out 0s;
+}
+.tagcloud a:hover {
+    border: 1px solid #12bbd5;
+    color:#12bbd5;
+}
+
+/*footer*/
+.column-footer .blog-media a{
+	color:#fff;
+}
+.column-footer .blog-media a:hover{
+	color:#12bbd5;
+}
+.column-footer .blog-media:last-child {
+    border-bottom: 1px solid transparent;
+}
+.column-footer .blog-media h5{
+	color:#b1b1b1;
+}
+.column-footer .bottum_hr ul{
+	margin-top:0px;
+	padding: 0px;
+}
+.column-footer .bottum_hr p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.9;
+    margin: 5px 0;
+}
+.column-footer .screen-reader-text{
+	display: none;
+}
+.column-footer .search-field{
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 0;
+    font-weight: normal;
+    padding: 7px 10px 7px 5px;
+    position: relative;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+}
+.column-footer .search-submit {
+    border: 1px solid #c8c8c8;
+    padding: 7px 10px;
+}
+
+.column-footer .children li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+.column-footer table {
+    width: 100%;
+    color: #fff;
+}
+.column-footer select {
+    padding: 5px;
+    width: 100%;
+}
+.column-footer .wp-caption {
+    background: none repeat scroll 0 0 #12bbd5;
+    clear: both;
+    margin-bottom: 14px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.column-footer img {
+    height: auto;
+    max-width: 100%;
+}
+.column-footer .sub-menu li {
+    border-bottom: medium none;
+    padding: 5px 0 0 20px;
+}
+.column-footer .tagcloud a {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 100% !important;
+}
+.column-footer h1{
+    border-bottom: 1px dashed #4a4949;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    }
+/**
+ Laurels gallery
+ * -----------------------------------------------------------------------------
+ */
+
+.gallery {
+	margin-bottom: 20px;
+}
+
+.gallery-item {
+	float: left;
+	margin: 0 4px 4px 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 48%;
+	max-width: -webkit-calc(50% - 4px);
+	max-width:         calc(50% - 4px);
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 32%;
+	max-width: -webkit-calc(33.3% - 4px);
+	max-width:         calc(33.3% - 4px);
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+	max-width: -webkit-calc(25% - 4px);
+	max-width:         calc(25% - 4px);
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 19%;
+	max-width: -webkit-calc(20% - 4px);
+	max-width:         calc(20% - 4px);
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 15%;
+	max-width: -webkit-calc(16.7% - 4px);
+	max-width:         calc(16.7% - 4px);
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 13%;
+	max-width: -webkit-calc(14.28% - 4px);
+	max-width:         calc(14.28% - 4px);
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 11%;
+	max-width: -webkit-calc(12.5% - 4px);
+	max-width:         calc(12.5% - 4px);
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 9%;
+	max-width: -webkit-calc(11.1% - 4px);
+	max-width:         calc(11.1% - 4px);
+}
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-right: 0;
+}
+
+.gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1),
+.gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1),
+.gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1),
+.gallery-columns-3.gallery-size-thumbnail figure.gallery-item:nth-of-type(3n+1) {
+	clear: left;
+}
+
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.no-padding-left{
+    padding-left: 0px; 
+    padding-right: 25px;
+}  
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+} 
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+@media (max-width: 500px){
+.section_row_4 .media_blog .media.media_left a>img {
+    width: 100%;
+}
+.section_row_4 .media_blog .media.media_left > a {
+    float: left;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+}
+
+@media (max-width: 767px){
+.search-box {
+    float: none; 
+}
+.bottum_hr {
+    width: 100%;
+} 
+} 
